@@ -10,7 +10,6 @@
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/Kubernetes/YAML)
 
-<br>
 
 ## Docker
 
@@ -21,16 +20,12 @@
 - [Compose/Stack Files](https://github.com/awsautomation/CloudOps/tree/main/Docker/YAML)
 - [Dockerfile](https://github.com/awsautomation/CloudOps/tree/main/Docker/Dockerfile)
 
-<br>
-
 ## GitHub Actions
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/211621722-c2ddc389-6e4e-4769-9dac-f18f8e71fed3.png" height="100" alt="GitHub Action"> 
 
 - [Notes + Learning Resources](GitHub-Actions/README.md)
 - [Workflows](https://github.com/awsautomation/CloudOps/tree/main/GitHub-Actions/Workflows)
-
-<br>
 
 ## Linux
 
@@ -39,16 +34,12 @@
 - [Notes + Learning Resources](Linux/README.md)
 - [Commands](Linux/commands/README.md)
 
-<br>
-
 ## Git 
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/202784470-2c813581-7160-4aaf-b96c-35187795d05b.png" height="100" alt="git"> 
 
 - [Notes + Learning Resources](Git/README.md)
 - [Commands](Git/commands/README.md)
-
-<br>
 
 ## Networking
 
@@ -57,16 +48,12 @@
 - [Notes + Learning Resources](Networking/README.md)
 - [Commands](Networking/commands/README.md)
 
-<br>
-
 ## YAML
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/202765143-55758916-b631-4c18-aaad-718b42507d67.png" height="100" alt="YAML"> 
 
 - [Notes + Learning Resources](YAML/README.md)
 - [Syntax](YAML/syntax/README.md)
-
-<br>
 
 ## Go
 
@@ -76,15 +63,11 @@
 - [Concepts](https://github.com/awsautomation/CloudOps/tree/main/Go/Concepts)
 - [Practice App](https://github.com/awsautomation/CloudOps/tree/main/Go/App)
 
-<br>
-
 ## Helm
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/202859249-b90ac510-d8e8-408d-9c07-0d2bd8e1b092.png" height="100" alt="Helm"> 
 
 - [Notes + Learning Resources](Helm/README.md)
-
-<br>
 
 ## Prometheus
 
@@ -92,15 +75,11 @@
 
 - [Notes + Learning Resources](Prometheus/README.md)
 
-<br>
-
 ## GitOps
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/206730962-b20f94c1-17af-48b2-b62c-b6c02dbeeb77.png" height="100" alt="Gitops"> 
 
 - [Notes + Learning Resources](GitOps/README.md)
-
-<br>
 
 ## ArgoCD
 
@@ -109,15 +88,11 @@
 - [Notes + Learning Resources](ArgoCD/README.md)
 - [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/ArgoCD/YAML)
 
-<br>
-
 ## Portainer
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/204345912-dee5ddf4-4a91-4b4f-aeb3-5a429de5a7f7.png" height="100" alt="portainer"> 
 
 - [Notes + Learning Resources](Portainer/README.md)
-
-<br>
 
 ## Jenkins 
 
@@ -126,8 +101,6 @@
 - [Notes + Learning Resources](Jenkins/README.md)
 - [Jenkinsfile](https://github.com/awsautomation/CloudOps/tree/main/Jenkins/Jenkinsfile)
 
-<br>
-
 ## Bash Scripting 
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/200594989-b1406680-ed41-478a-84d5-7c35b287e112.png" height="100" alt="Bash"> 
@@ -135,7 +108,6 @@
 - [Notes + Learning Resources](Bash-Scripting/README.md)
 - [Script](https://github.com/awsautomation/CloudOps/tree/main/Bash-Scripting/Scripts)
 
-<br>
 
 ## Lens IDE
 
@@ -143,23 +115,17 @@
 
 - [Notes + Learning Resources](Lens/README.md)
 
-<br>
-
 ## Kubescape 
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/208244012-919ce817-32c1-40fe-b31f-44dba72655da.png" height="100" alt="Kubescape"> 
 
 - [Notes + Learning Resources](Kubescape/README.md)
 
-<br>
-
 ## ValidKube 
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/208244291-3e43c1aa-cee1-4943-8775-21189cab3dcd.png" height="50" alt="ValidKube"> 
 
 - [Notes + Learning Resources](Validkube/README.md)
-
-<br>
 
 <!-- ### Topic to cover
 - Ansible
