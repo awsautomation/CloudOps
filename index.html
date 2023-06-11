@@ -17,55 +17,10 @@
       title="docsify-darklight-theme"
       type="text/css"
     />
-    <style>
-      .sidebar-toggle {
-        display: block;
-        position: fixed;
-        top: 20px;
-        left: 20px;
-        z-index: 999;
-        cursor: pointer;
-      }
-
-      .sidebar-toggle span {
-        display: block;
-        width: 24px;
-        height: 2px;
-        background-color: #000;
-        margin-bottom: 5px;
-      }
-
-      .sidebar-toggle span:last-child {
-        margin-bottom: 0;
-      }
-
-      .sidebar-open .sidebar-toggle span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-      }
-
-      .sidebar-open .sidebar-toggle span:nth-child(2) {
-        opacity: 0;
-      }
-
-      .sidebar-open .sidebar-toggle span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-      }
-    </style>
   </head>
   <body>
     <div id="app">CloudDevOps Tutorial</div>
-
-    <div class="sidebar-toggle" onclick="toggleSidebar()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
     <script>
-      function toggleSidebar() {
-        var sidebar = document.querySelector('.sidebar');
-        sidebar.classList.toggle('sidebar-open');
-      }
       window.$docsify = {
         themeColor: "#FFa590",
         name: "DevOps",
@@ -105,8 +60,6 @@
     ]
   };
 </script>
-      // Function to toggle sidebar
-    </>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
