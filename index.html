@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>CloudOps</title>
     <link type="image/png" sizes="96x96" rel="icon" href="/favicon/icons.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Guide For Cloud DevOps" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Guide For Cloud DevOps"/>
     <meta name="keywords" content="devOps,cloud,aws,kubernetes,docker,gcp,kong,awshandon,workshop,doc,gitbook,creator,generator,github,jekyll,github-pages">
     <meta
       name="viewport"
@@ -19,7 +19,7 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">CloudDevOps Tutorial</div>
     <script>
       window.$docsify = {
         themeColor: "#FFa590",
@@ -45,20 +45,7 @@
             accent: "#FFa590",
           },
         },
-      plugins: [
-        function(hook) {
-          var footer = [
-            '<footer style="text-align: center;margin-top: 50px;">',
-            '<span> This Project CloudDevOps is licensed under the terms of the [MIT](https://github.com/awsautomation/CloudOps/blob/main/LICENSE.txt) license. © [Farhan](https://www.awsweb.online) &copy; 2023 </span>',
-            '</footer>'
-          ].join('');
-
-          hook.afterEach(function(html) {
-            return html + footer;
-          });
-        }
-      ]
-    };
+      };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
