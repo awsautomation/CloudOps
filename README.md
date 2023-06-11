@@ -8,7 +8,8 @@
 
 - [Notes + Learning Resources](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+- [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/Kubernetes/YAML)
+- 
 
 <br>
 
@@ -18,8 +19,8 @@
 
 - [Notes + Learning Resources](Docker/README.md)
 - [Commands](Docker/commands/README.md)
-- [Compose/Stack Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Docker/YAML)
-- [Dockerfile](https://github.com/Pradumnasaraf/DevOps/tree/main/Docker/Dockerfile)
+- [Compose/Stack Files](https://github.com/awsautomation/CloudOps/tree/main/Docker/YAML)
+- [Dockerfile](https://github.com/awsautomation/CloudOps/tree/main/Docker/Dockerfile)
 
 <br>
 
@@ -28,7 +29,7 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/211621722-c2ddc389-6e4e-4769-9dac-f18f8e71fed3.png" height="100" alt="GitHub Action"> 
 
 - [Notes + Learning Resources](GitHub-Actions/README.md)
-- [Workflows](https://github.com/Pradumnasaraf/DevOps/tree/main/GitHub-Actions/Workflows)
+- [Workflows](https://github.com/awsautomation/CloudOps/tree/main/GitHub-Actions/Workflows)
 
 <br>
 
@@ -73,8 +74,8 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/213385507-52f03107-388c-4992-9b5e-c89de6906e37.png" height="100" alt="network"> 
 
 - [Notes + Learning Resources](Go/README.md)
-- [Concepts](https://github.com/Pradumnasaraf/DevOps/tree/main/Go/Concepts)
-- [Practice App](https://github.com/Pradumnasaraf/DevOps/tree/main/Go/App)
+- [Concepts](https://github.com/awsautomation/CloudOps/tree/main/Go/Concepts)
+- [Practice App](https://github.com/awsautomation/CloudOps/tree/main/Go/App)
 
 <br>
 
@@ -107,7 +108,7 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/205495495-b3f0b395-3ce3-42d8-9274-220ff10334f6.png" height="100" alt="Argo"> 
 
 - [Notes + Learning Resources](ArgoCD/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/ArgoCD/YAML)
+- [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/ArgoCD/YAML)
 
 <br>
 
@@ -124,7 +125,7 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/209197795-570330e6-fbee-4bf3-a42e-b8609e3afc46.png" height="100" alt="Jenkins"> 
 
 - [Notes + Learning Resources](Jenkins/README.md)
-- [Jenkinsfile](https://github.com/Pradumnasaraf/DevOps/tree/main/Jenkins/Jenkinsfile)
+- [Jenkinsfile](https://github.com/awsautomation/CloudOps/tree/main/Jenkins/Jenkinsfile)
 
 <br>
 
@@ -133,7 +134,7 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/200594989-b1406680-ed41-478a-84d5-7c35b287e112.png" height="100" alt="Bash"> 
 
 - [Notes + Learning Resources](Bash-Scripting/README.md)
-- [Script](https://github.com/Pradumnasaraf/DevOps/tree/main/Bash-Scripting/Scripts)
+- [Script](https://github.com/awsautomation/CloudOps/tree/main/Bash-Scripting/Scripts)
 
 <br>
 
