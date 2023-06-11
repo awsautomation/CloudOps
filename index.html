@@ -6,6 +6,7 @@
     <link type="image/png" sizes="96x96" rel="icon" href="/favicon/icons.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Guide For Cloud DevOps" />
+    <meta name="keywords" content="devOps,cloud,aws,kubernetes,docker,gcp,kong,awshandon,workshop,doc,gitbook,creator,generator,github,jekyll,github-pages">
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
@@ -39,23 +40,31 @@
           bodyFontSize: "16px",
           dark: {
             accent: "#FFa590",
-            primary: "#4C8BF5",
-            secondary: "#F5C34C",
-            background: "#222222",
           },
           light: {
             accent: "#FFa590",
-            primary: "#008000",
-            secondary: "#FF001",
-            background: "#FFFFFF",
           },
         },
-      };
+      plugins: [
+        function(hook) {
+          var footer = [
+            '<footer style="text-align: center;margin-top: 50px;">',
+            '<span> Cloud-DevOps  &copy; 2023 </span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        }
+      ],
+      }
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script
       src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
       type="text/javascript"
