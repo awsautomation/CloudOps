@@ -18,63 +18,54 @@
       type="text/css"
     />
     <style>
-      /* Custom styles for sidebar toggle button */
       .sidebar-toggle {
+        display: block;
         position: fixed;
         top: 20px;
         left: 20px;
         z-index: 999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        background-color: transparent;
-        border: none;
         cursor: pointer;
       }
 
-      .sidebar-toggle .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 24px;
-        height: 18px;
-        padding: 6px 0;
-      }
-
-      .sidebar-toggle .hamburger span {
+      .sidebar-toggle span {
         display: block;
-        width: 100%;
+        width: 24px;
         height: 2px;
         background-color: #000;
-        transition: background-color 0.3s ease;
+        margin-bottom: 5px;
       }
 
-      .sidebar-toggle .hamburger span:first-child {
-        transform-origin: top left;
+      .sidebar-toggle span:last-child {
+        margin-bottom: 0;
       }
 
-      .sidebar-toggle .hamburger span:last-child {
-        transform-origin: bottom left;
+      .sidebar-open .sidebar-toggle span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
       }
 
-      /* Change sidebar toggle button appearance on hover */
-      .sidebar-toggle:hover .hamburger span {
-        background-color: #FFa590;
+      .sidebar-open .sidebar-toggle span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .sidebar-open .sidebar-toggle span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
       }
     </style>
   </head>
   <body>
     <div id="app">CloudDevOps Tutorial</div>
-    <button class="sidebar-toggle" onclick="toggleSidebar()">
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
+
+    <div class="sidebar-toggle" onclick="toggleSidebar()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <script>
+      function toggleSidebar() {
+        var sidebar = document.querySelector('.sidebar');
+        sidebar.classList.toggle('sidebar-open');
+      }
       window.$docsify = {
         themeColor: "#FFa590",
         name: "DevOps",
@@ -99,14 +90,28 @@
             accent: "#FFa590",
           },
         },
-      };
+        plugins: [
+        function(hook) {
+        var footer = [
+          '<footer style="text-align: center;margin-top: 50px;">',
+          '<span> Developed by Farhan &copy; 2023 </span>',
+          '</footer>'
+        ].join('');
 
+        hook.afterEach(function(html) {
+          return html + footer;
+        });
+      }
+    ]
+  };
+</script>
       // Function to toggle sidebar
-    </script>
+    </>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify-footer@latest"></script>
     <script
       src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
       type="text/javascript"
