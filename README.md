@@ -1,10 +1,14 @@
 
-<p align="center">
-  <a href="https://www.awsweb.online" style="text-decoration: none;">DevOps</a>
-  &nbsp;|&nbsp;
-  <a href="https://www.awsweb.online" style="text-decoration: none;">AWS</a>
-</p>
-
+<div style="text-align: center;">
+  <a href="https://www.awsweb.online" style="text-decoration: none; display: inline-block;">
+    <h1 style="display: inline;">DevOps</h1>
+  </a>
+  <span style="font-size: 24px;">|</span>
+  <a href="https://www.awsweb.online" style="text-decoration: none; display: inline-block;">
+    <h1 style="display: inline;">AWS</h1>
+  </a>
+</div>
+<br></br>
 
 
 <p align="center"> Learning Content for DevOps Tools & Cloud Technologies </p>
