@@ -17,9 +17,63 @@
       title="docsify-darklight-theme"
       type="text/css"
     />
+    <style>
+      /* Custom styles for sidebar toggle button */
+      .sidebar-toggle {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      .sidebar-toggle .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24px;
+        height: 18px;
+        padding: 6px 0;
+      }
+
+      .sidebar-toggle .hamburger span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        transition: background-color 0.3s ease;
+      }
+
+      .sidebar-toggle .hamburger span:first-child {
+        transform-origin: top left;
+      }
+
+      .sidebar-toggle .hamburger span:last-child {
+        transform-origin: bottom left;
+      }
+
+      /* Change sidebar toggle button appearance on hover */
+      .sidebar-toggle:hover .hamburger span {
+        background-color: #FFa590;
+      }
+    </style>
   </head>
   <body>
     <div id="app">CloudDevOps Tutorial</div>
+    <button class="sidebar-toggle" onclick="toggleSidebar()">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
     <script>
       window.$docsify = {
         themeColor: "#FFa590",
@@ -46,6 +100,8 @@
           },
         },
       };
+
+      // Function to toggle sidebar
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
