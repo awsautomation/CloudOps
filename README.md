@@ -9,7 +9,6 @@
 - [Notes + Learning Resources](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/Kubernetes/YAML)
-- 
 
 <br>
 
