@@ -1,6 +1,6 @@
 <h1 align="center"> DevOps </h1>
 
-<p align="center"> Contains all my learning related to DevOps tools and tech.</p>
+<p align="center"> Learning Content for DevOps Tools & Cloud Technologies</p>
 
 ## Kubernetes
 
