@@ -1,0 +1,71 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Integrates New Relic with AWS accounts that use AWS Control Tower. This deployment launches as a stack set in your AWS Control Tower landing zone.(qs-1rsulpe1p)
+Parameters:
+  NewRelicAccountNumber:
+    Type: String
+    Description: New Relic account ID
+    AllowedPattern: '[0-9]+'
+    ConstraintDescription: New Relic account ID contains only numbers
+  NewRelicLicenseKey:
+    Type: String
+    NoEcho: true
+    Description: The license key associated with the account you wish to export metrics to
+    AllowedPattern: '^[A-Za-z0-9]{40}$'
+    ConstraintDescription: New Relic ingestKey is 40-character Hexadecimal String
+  NewRelicDatacenter:
+    Type: String
+    Description: New Relic datacenter your metrics are exported to
+    AllowedValues:
+      - 'US'
+      - 'EU'
+  CloudWatchMetricsStreamingTemplateURL:
+    Type: String
+    Default: https://aws-quickstart.s3.amazonaws.com/quickstart-ct-newrelic-one/templates/MetricStreams_CloudFormation.yml
+    Description: "S3 Url of cloudwatch metric stream template"
+  CloudWatchMetricStreamName:
+    Type: String
+    Description: "Name of new CloudWatch Metric Stream(must be unique per AWS account in the same AWS Region)"
+  FirehoseStreamName:
+    Type: String
+    Description: "Name of new Kinesis Firehose Delivery Stream (must be unique per AWS account in the same AWS Region)"
+  S3BackupBucketName:
+    Type: String
+    Description: "Name of new S3 Bucket Destination for failed events (must be globally unique across all AWS accounts in all AWS Regions within a partition)"
+  NewRelicTrustedPrincipal:
+    Type: String
+    Default: 754728514883
+    Description: 'New Relic AWS Account Id for integration with customer AWS account. https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/connect-aws-new-relic-infrastructure-monitoring/'
+
+Resources:
+  CloudWatchMetricStreamsStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: !Ref CloudWatchMetricsStreamingTemplateURL
+      Parameters:
+        NewRelicLicenseKey: !Ref NewRelicLicenseKey
+        NewRelicDatacenter: !Ref NewRelicDatacenter
+        CloudWatchMetricStreamName: !Ref CloudWatchMetricStreamName
+        FirehoseStreamName: !Ref FirehoseStreamName
+        S3BackupBucketName: !Ref S3BackupBucketName
+      TimeoutInMinutes: 10
+  NewRelicDefaultPolicyRole:
+    Type: 'AWS::IAM::Role'
+    Metadata:
+      cfn_nag:
+        rules_to_suppress:
+          - id: W28
+            reason: "New Relic must use unique IAM role names to identify them."
+    Properties:
+      ManagedPolicyArns: 
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/ReadOnlyAccess'
+      RoleName: !Join ['_', ['NewRelicIntegrationRole', !Ref NewRelicAccountNumber]]
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              AWS: !Sub 'arn:aws:iam::${NewRelicTrustedPrincipal}:root'
+            Action: 'sts:AssumeRole'
+            Condition:
+              StringEquals:
+                'sts:ExternalId': !Ref NewRelicAccountNumber
