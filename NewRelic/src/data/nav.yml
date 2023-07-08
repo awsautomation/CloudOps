@@ -1,0 +1,644 @@
+- title: Collect data
+  icon: nr-tdp
+  url: '/collect-data'
+  pages:
+    - title: Collect data from any source
+      url: https://docs.newrelic.com/docs/data-apis/custom-data/intro-custom-data
+    - title: Monitor your network devices
+      url: '/collect-data/network-performance-monitoring'
+    - title: Identify root cause issues in your infrastructure
+      url: '/collect-data/infra'
+    - title: Monitor your application
+      url: '/collect-data/monitor-your-application'
+      pages:
+        - title: Set up your lab environment
+          url: '/collect-data/monitor-your-application/set-up-env'
+        - title: Instrument your application with our APM agent
+          url: '/collect-data/monitor-your-application/install-apm'
+        - title: Instrument your application with our browser agent
+          url: '/collect-data/monitor-your-application/install-browser-agent'
+        - title: Add alerts
+          url: '/collect-data/monitor-your-application/add-alerts'
+        - title: See your data in action
+          url: '/collect-data/monitor-your-application/data-in-action'
+        - title: Explore your data using NRQL
+          url: '/collect-data/monitor-your-application/explore-your-data'
+        - title: Collect custom business data
+          url: '/collect-data/monitor-your-application/collect-custom-data'
+        - title: Create a custom dashboard
+          url: '/collect-data/monitor-your-application/query-custom-data'
+    - title: Monitor your network devices
+      url: '/collect-data/network-performance-monitoring'
+    - title: Identify root cause issues in your infrastructure
+      url: '/collect-data/infra'
+    - title: Estimate data ingest and cost
+      url: '/collect-data/estimate-cost'
+    - title: Troubleshoot your website with New Relic browser
+      url: '/collect-data/browser'
+      pages:
+        - title: Set up your Relicstaurants web app
+          url: '/collect-data/browser/set-up-env'
+        - title: Instrument your application with our browser agent
+          url: '/collect-data/browser/install-browser-agent'
+        - title: Debug errors in your application
+          url: '/collect-data/browser/debug-errors'
+        - title: Debug frontend slowness in your application
+          url: '/collect-data/browser/debug-slowness'
+    - title: Monitor your Kubernetes cluster with New Relic and Pixie
+      url: '/collect-data/pixie'
+      pages:
+        - title: Set up your TinyHat environment
+          url: '/collect-data/pixie/set-up-env'
+        - title: Explore your cluster
+          url: '/collect-data/pixie/explore-cluster'
+        - title: Instrument your cluster
+          url: '/collect-data/pixie/instrument-cluster'
+        - title: Debug missing images in your service
+          url: '/collect-data/pixie/scenario-1'
+        - title: Debug latency in the TinyHat admin
+          url: '/collect-data/pixie/scenario-2'
+    - title: Automatically instrument your application with OpenTelemetry
+      url: '/collect-data/opentelemetry'
+      pages:
+        - title: Set up your lab environment
+          url: '/collect-data/opentelemetry/set-up-env'
+        - title: Instrument your app with Open Telemetry
+          url: '/collect-data/opentelemetry/instrument'
+        - title: View your OpenTelemetry data in New Relic
+          url: '/collect-data/opentelemetry/view'
+    - title: Manually instrument your application with OpenTelemetry
+      url: '/collect-data/opentelemetry-manual'
+      pages:
+        - title: Set up your lab environment
+          url: '/collect-data/opentelemetry-manual/set-up-env'
+        - title: Instrument your app with Open Telemetry
+          url: '/collect-data/opentelemetry-manual/instrument'
+        - title: View your OpenTelemetry data in New Relic
+          url: '/collect-data/opentelemetry-manual/view'
+        - title: Send a custom span event
+          url: '/collect-data/opentelemetry-manual/custom-span-event'
+- title: Automate workflows
+  icon: nr-automation
+  url: '/automate-workflows'
+  pages:
+    - title: Using Terraform with New Relic
+      url: '/terraform'
+      pages:
+        - title: Set up New Relic using Terraform
+          url: '/automate-workflows/get-started-terraform'
+        - title: Using Terraform modules and remote storage
+          url: '/terraform/terraform-modules'
+        - title: Using Terragrunt to manage multiple environments
+          url: '/terraform/terragrunt-configuration'
+    - title: Using Pulumi with New Relic
+      url: '/pulumi'
+      pages:
+        - title: Set up New Relic using Pulumi
+          url: '/automate-workflows/get-started-pulumi'
+    - title: Get started with the New Relic CLI
+      url: '/automate-workflows/get-started-new-relic-cli'
+    - title: Set up New Relic using the Kubernetes operator
+      url: '/automate-workflows/get-started-kubernetes'
+    - title: Set up New Relic using Helm charts
+      url: '/automate-workflows/kubernetes-helm-deployment'
+    - title: Tag a set of resources efficiently
+      url: '/automate-workflows/5-mins-tag-resources'
+    - title: Automated end-to-end tagging of entities
+      url: '/automate-workflows/automated-tagging'
+    - title: Use New Relic to diagnose problems in your system
+      url: '/automate-workflows/diagnose-problems'
+      pages:
+        - title: Spin up Acme Telco Lite architecture
+          url: '/automate-workflows/diagnose-problems/spin-up-acme'
+        - title: View your services
+          url: '/automate-workflows/diagnose-problems/view-your-services'
+        - title: Diagnose high response time
+          url: '/automate-workflows/diagnose-problems/high-response-times'
+        - title: Diagnose error alerts
+          url: '/automate-workflows/diagnose-problems/error-alerts'
+        - title: Tear down Telco Lite
+          url: '/automate-workflows/diagnose-problems/tear-down'
+    - title: Resolve errors faster with full stack error tracking
+      url: '/automate-workflows/error-inbox'
+      pages:
+        - title: Spin up Geek movie shop architecture
+          url: '/automate-workflows/error-inbox/spin-up-geek-movie'
+        - title: Set up Errors Inbox
+          url: '/automate-workflows/error-inbox/set-up-errors-inbox'
+        - title: Triage your errors
+          url: '/automate-workflows/error-inbox/triage-errors'
+        - title: Manage your triaged errors
+          url: '/automate-workflows/error-inbox/manage-errors'
+- title: Build apps
+  icon: nr-build-apps
+  url: '/build-apps'
+  pages:
+    - title: Set up your development environment
+      url: '/build-apps/set-up-dev-env'
+    - title: Enable advanced configurations for your Nerdpack
+      url: '/build-apps/advanced-config'
+    - title: Create a 'Hello, World!' app
+      url: '/build-apps/build-hello-world-app'
+    - title: Build a NR1 app with React hooks
+      url: '/build-apps/build-react-hooks-app'
+    - title: Publish and deploy your Nerdpack
+      url: '/build-apps/publish-deploy'
+      pages:
+        - title: Serve your Nerdpack
+          url: '/build-apps/publish-deploy/serve'
+        - title: Publish your Nerdpack
+          url: '/build-apps/publish-deploy/publish'
+        - title: Subscribe to your Nerdpack
+          url: '/build-apps/publish-deploy/subscribe'
+        - title: Update your Nerdpack's catalog information
+          url: '/build-apps/publish-deploy/catalog'
+        - title: Tag your Nerdpack's release version
+          url: '/build-apps/publish-deploy/tag'
+    - title: Customize open-source Nerdpacks
+      url: '/build-apps/customize-nerdpack'
+    - title: Permissions for managing apps
+      url: '/build-apps/permission-manage-apps'
+    - title: Attach your Nerdlet to your entities
+      url: '/build-apps/attach-nerdlet-to-entities'
+    - title: Map pageviews by region
+      url: '/build-apps/map-pageviews-by-region'
+    - title: Add a time picker
+      url: '/build-apps/add-time-picker-guide'
+    - title: Add the NerdGraphQuery component to an app
+      url: '/build-apps/add-nerdgraphquery-guide'
+    - title: Add tables to your New Relic application
+      url: '/build-apps/howto-use-nrone-table-components'
+    - title: Add, query, and mutate data using NerdStorage
+      url: '/build-apps/add-query-mutate-data-nerdstorage'
+    - title: Display your data in different ways with a custom visualization
+      pages:
+        - title: Customize your visualization with SDK components
+          url: '/build-apps/custom-visualizations-and-the-new-relic-one-sdk'
+        - title: Customize your visualization with configuration options
+          url: '/build-apps/customize-visualizations-with-configuration'
+        - title: Add your custom visualization to a dashboard
+          url: '/build-apps/add-visualizations-to-dashboard'
+    - title: Build an A/B test application
+      url: '/ab-test'
+      pages:
+        - title: Spin up your demo services
+          url: '/build-apps/ab-test/demo-setup'
+        - title: Install and configure the New Relic One CLI
+          url: '/build-apps/ab-test/install-nr1'
+        - title: Create a Nerdpack
+          url: '/build-apps/ab-test/create-nerdpack'
+        - title: Serve your New Relic application
+          url: '/build-apps/ab-test/serve-app'
+        - title: Add chart components to your A/B test application
+          url: '/build-apps/ab-test/add-charts'
+        - title: Add your first chart
+          url: '/build-apps/ab-test/first-chart'
+        - title: Add pie charts
+          url: '/build-apps/ab-test/pie-charts'
+        - title: Add tables
+          url: '/build-apps/ab-test/table-charts'
+        - title: Add a chart group
+          url: '/build-apps/ab-test/chart-group'
+        - title: Add user interface components to your application
+          url: '/build-apps/ab-test/add-ui'
+        - title: Add a grid
+          url: '/build-apps/ab-test/grid'
+        - title: Add chart headings
+          url: '/build-apps/ab-test/chart-headings'
+        - title: Add version descriptions
+          url: '/build-apps/ab-test/version-descriptions'
+        - title: Add a section to end your test
+          url: '/build-apps/ab-test/end-test'
+        - title: Persist the selected version
+          url: '/build-apps/ab-test/persist-version'
+        - title: Present an end test confirmation modal
+          url: '/build-apps/ab-test/confirmation-modal'
+        - title: Add NrqlQuery components to your Nerdlet
+          url: '/build-apps/ab-test/nrql'
+        - title: Customize NRQL data
+          url: '/build-apps/ab-test/nrql-customizations'
+        - title: Access NerdStorage from your Nerdlet
+          url: '/build-apps/ab-test/nerdstorage'
+        - title: Access NerdStorageVault from your Nerdlet
+          url: '/build-apps/ab-test/nerdstoragevault'
+        - title: Fetch data from a third-party service
+          url: '/build-apps/ab-test/third-party-service'
+        - title: Add PlatformStateContext to your Nerdlet
+          url: '/build-apps/ab-test/platform-state-context'
+        - title: Add navigation to your Nerdlet
+          url: '/build-apps/ab-test/navigation'
+        - title: Describe your app for the catalog
+          url: '/build-apps/ab-test/catalog'
+        - title: Publish your New Relic application
+          url: '/build-apps/ab-test/publish'
+        - title: Subscribe to your New Relic application
+          url: '/build-apps/ab-test/subscribe'
+    - title: See all open source apps
+      url: https://opensource.newrelic.com/nerdpacks/
+    - title: Manage New Relic One SDK deprecations
+      url: '/build-apps/nr1-deprecations'
+
+- title: Contribute to quickstarts
+  icon: fe-zap
+  url: '/contribute-to-quickstarts'
+  pages:
+    - title: Deploy your application
+      url: /contribute-to-quickstarts/deploy-your-application
+    - title: Send telemetry data to New Relic
+      url: '/contribute-to-quickstarts/instrument-library'
+      pages:
+        - title: Send metrics from your product
+          url: '/contribute-to-quickstarts/instrument-library/send-metrics'
+        - title: Send events from your product
+          url: '/contribute-to-quickstarts/instrument-library/send-events'
+        - title: Send logs from your product
+          url: '/contribute-to-quickstarts/instrument-library/send-logs'
+        - title: Send traces from your product
+          url: '/contribute-to-quickstarts/instrument-library/send-traces'
+    - title: Create a dashboard
+      url: /contribute-to-quickstarts/create-a-dashboard
+    - title: Create alerts
+      url: /contribute-to-quickstarts/create-alerts
+    - title: Build a quickstart
+      url: '/contribute-to-quickstarts/build-a-quickstart'
+      pages:
+        - title: Understand quickstart directory structure
+          url: /contribute-to-quickstarts/build-a-quickstart/understand-quickstart
+        - title: Add your dashboard to the quickstart
+          url: /contribute-to-quickstarts/build-a-quickstart/add-dashboard
+        - title: Add your alerts to the quickstart
+          url: /contribute-to-quickstarts/build-a-quickstart/add-alerts
+        - title: Add a data source to the quickstart
+          url: /contribute-to-quickstarts/build-a-quickstart/add-data-source
+        - title: Contribute your quickstart
+          url: /contribute-to-quickstarts/build-a-quickstart/contribute-quickstart
+
+- title: OpenTelemetry masterclass
+  icon: fe-compass
+  url: '/opentelemetry-masterclass'
+  pages:
+    - title: Telemetry basics
+      url: '/opentelemetry-masterclass/telemetry'
+      pages:
+        - title: Telemetry
+          url: '/opentelemetry-masterclass/telemetry/telemetry'
+        - title: Telemetry data types
+          url: '/opentelemetry-masterclass/telemetry/telemetry-data-types'
+        - title: Traces
+          url: '/opentelemetry-masterclass/telemetry/traces'
+        - title: Telemetry and observability
+          url: '/opentelemetry-masterclass/telemetry/telemetry-and-observability'
+        - title: Traditional telemetry instrumentation
+          url: '/opentelemetry-masterclass/telemetry/traditional-telemetry-instrumentation'
+    - title: OpenTelemetry fundamentals
+      url: '/opentelemetry-masterclass/fundamentals'
+      pages:
+        - title: OpenTelemetry
+          url: '/opentelemetry-masterclass/fundamentals/opentelemetry'
+        - title: The OpenTelemetry specification
+          url: '/opentelemetry-masterclass/fundamentals/opentelemetry-specification'
+        - title: The OpenTelemetry data model specification
+          url: '/opentelemetry-masterclass/fundamentals/data-model'
+        - title: Trace data model and semantic conventions
+          url: '/opentelemetry-masterclass/fundamentals/trace-data-model-semantic-conventions'
+        - title: The OpenTelemetry Protocol
+          url: '/opentelemetry-masterclass/fundamentals/otlp'
+        - title: The OpenTelemetry API specification
+          url: '/opentelemetry-masterclass/fundamentals/api'
+        - title: Defining the interface
+          url: '/opentelemetry-masterclass/fundamentals/defining-the-interface'
+        - title: Minimal implementation
+          url: '/opentelemetry-masterclass/fundamentals/minimal-implementation'
+        - title: Separating concerns
+          url: '/opentelemetry-masterclass/fundamentals/separating-concerns'
+        - title: The OpenTelemetry SDK
+          url: '/opentelemetry-masterclass/fundamentals/sdk'
+        - title: SDK plugins
+          url: '/opentelemetry-masterclass/fundamentals/sdk-plugins'
+        - title: SDK constructors
+          url: '/opentelemetry-masterclass/fundamentals/sdk-constructors'
+        - title: Resources
+          url: '/opentelemetry-masterclass/fundamentals/resources'
+        - title: OpenTelemetry implementations
+          url: '/opentelemetry-masterclass/fundamentals/opentelemetry-implementations'
+    - title: Hands-on OpenTelemetry
+      url: '/opentelemetry-masterclass/hands-on'
+      pages:
+        - title: Hands-on OpenTelemetry workshop
+          url: '/opentelemetry-masterclass/hands-on/workshop-introduction'
+        - title: View a summary of your data
+          url: '/opentelemetry-masterclass/hands-on/data-summary'
+        - title: View your traces
+          url: '/opentelemetry-masterclass/hands-on/traces'
+        - title: View error traces
+          url: '/opentelemetry-masterclass/hands-on/error-traces'
+
+- title: Try our APIs
+  icon: nr-share
+  url: '/try-our-apis'
+  pages:
+    - title: Telemetry APIs
+      pages:
+        - title: Metrics API
+          url: https://docs.newrelic.com/docs/telemetry-data-platform/get-data/apis/introduction-metric-api
+        - title: Event API
+          url: https://docs.newrelic.com/docs/telemetry-data-platform/ingest-manage-data/ingest-apis/use-event-api-report-custom-events
+        - title: Log API
+          url: https://docs.newrelic.com/docs/logs/log-management/log-api/introduction-log-api
+        - title: Trace API
+          url: https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api
+    - title: REST & GraphQL APIs
+      pages:
+        - title: NerdGraph API Explorer
+          url: https://api.newrelic.com/graphiql
+        - title: REST API Explorer
+          url: https://rpm.newrelic.com/api/explore
+        - title: Insights API
+          url: https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-event-data-api
+        - title: Synthetics API
+          url: https://docs.newrelic.com/docs/apis/synthetics-rest-api
+- title: Explore docs
+  icon: nr-book
+  pages:
+    - title: New Relic One CLI
+      url: '/explore-docs/nr1-cli'
+      pages:
+        - title: Common commands
+          url: '/explore-docs/nr1-common'
+        - title: Config commands
+          url: '/explore-docs/nr1-config'
+        - title: Nerdpack commands
+          url: '/explore-docs/nr1-nerdpack'
+        - title: Subscription commands
+          url: '/explore-docs/nr1-subscription'
+        - title: Plugin commands
+          url: '/explore-docs/nr1-plugins'
+        - title: Catalog commands
+          url: '/explore-docs/nr1-catalog'
+    - title: New Relic CLI
+      url: '/explore-docs/newrelic-cli'
+    - title: Nerdpack file structure
+      url: '/explore-docs/nerdpack-file-structure'
+    - title: Intro to Nerdstorage
+      url: '/explore-docs/nerdstorage'
+    - title: Intro to NerdstorageVault
+      url: '/explore-docs/nerdstoragevault'
+    - title: Query and store data
+      url: '/explore-docs/query-and-store-data'
+    - title: Custom visualizations
+      url: '/explore-docs/custom-viz'
+      pages:
+        - title: Configuration options
+          url: '/explore-docs/custom-viz/configuration-options'
+        - title: Your first custom visualization
+          url: '/explore-docs/custom-viz/build-visualization'
+        - title: Add your visualization to a dashboard with NerdGraph
+          url: '/explore-docs/custom-viz/add-to-dashboard-nerdgraph'
+    - title: New Relic One SDK Component library
+      url: '/explore-docs/intro-to-sdk'
+      pages:
+        - title: Controls
+          pages:
+            - title: AccountPicker
+              url: '/components/account-picker'
+            - title: Button
+              url: '/components/button'
+            - title: Checkbox
+              url: '/components/checkbox'
+            - title: CheckboxGroup
+              url: '/components/checkbox-group'
+            - title: Dropdown
+              url: '/components/dropdown'
+            - title: DropdownItem
+              url: '/components/dropdown-item'
+            - title: DropdownSection
+              url: '/components/dropdown-section'
+            - title: Form
+              url: '/components/form'
+            - title: Radio
+              url: '/components/radio'
+            - title: RadioGroup
+              url: '/components/radio-group'
+            - title: SegmentedControl
+              url: '/components/segmented-control'
+            - title: SegmentedControlItem
+              url: '/components/segmented-control-item'
+            - title: Select
+              url: '/components/select'
+            - title: SelectItem
+              url: '/components/select-item'
+            - title: Steps
+              url: '/components/steps'
+            - title: StepsItem
+              url: '/components/steps-item'
+            - title: Switch
+              url: '/components/switch'
+            - title: TextField
+              url: '/components/text-field'
+        - title: Tables
+          pages:
+            - title: Table
+              url: '/components/table'
+            - title: TableHeader
+              url: '/components/table-header'
+            - title: TableHeaderCell
+              url: '/components/table-header-cell'
+            - title: TableRow
+              url: '/components/table-row'
+            - title: TableRowCell
+              url: '/components/table-row-cell'
+            - title: EntityTitleTableRowCell
+              url: '/components/entity-title-table-row-cell'
+            - title: FavoriteTableRowCell
+              url: '/components/favorite-table-row-cell'
+            - title: MetricTableRowCell
+              url: '/components/metric-table-row-cell'
+            - title: SparklineTableRowCell
+              url: '/components/sparkline-table-row-cell'
+            - title: UserTableRowCell
+              url: '/components/user-table-row-cell'
+        - title: Feedback
+          pages:
+            - title: EmptyState
+              url: '/components/empty-state'
+            - title: Icon
+              url: '/components/icon'
+            - title: InlineMessage
+              url: '/components/inline-message'
+            - title: SectionMessage
+              url: '/components/section-message'
+            - title: Spinner
+              url: '/components/spinner'
+            - title: Toast
+              url: '/components/toast'
+        - title: Indicators
+          pages:
+            - title: Badge
+              url: '/components/badge'
+        - title: Overlays
+          pages:
+            - title: Modal
+              url: '/components/modal'
+            - title: Popover
+              url: '/components/popover'
+            - title: PopoverBody
+              url: '/components/popover-body'
+            - title: PopoverFooter
+              url: '/components/popover-footer'
+            - title: PopoverTrigger
+              url: '/components/popover-trigger'
+            - title: Tooltip
+              url: '/components/tooltip'
+        - title: Structure
+          pages:
+            - title: AutoSizer
+              url: '/components/auto-sizer'
+            - title: Card
+              url: '/components/card'
+            - title: CardBody
+              url: '/components/card-body'
+            - title: CardHeader
+              url: '/components/card-header'
+            - title: CardSection
+              url: '/components/card-section'
+            - title: CardSectionBody
+              url: '/components/card-section-body'
+            - title: CardSectionHeader
+              url: '/components/card-section-header'
+            - title: CollapsibleLayoutItem
+              url: '/components/collapsible-layout-item'
+            - title: Grid
+              url: '/components/grid'
+            - title: GridItem
+              url: '/components/grid-item'
+            - title: Layout
+              url: '/components/layout'
+            - title: LayoutItem
+              url: '/components/layout-item'
+            - title: List
+              url: '/components/list'
+            - title: ListItem
+              url: '/components/list-item'
+            - title: Spacing
+              url: '/components/spacing'
+            - title: Stack
+              url: '/components/stack'
+            - title: StackItem
+              url: '/components/stack-item'
+            - title: Tabs
+              url: '/components/tabs'
+            - title: TabsItem
+              url: '/components/tabs-item'
+            - title: Tile
+              url: '/components/tile'
+            - title: TileGroup
+              url: '/components/tile-group'
+        - title: Text
+          pages:
+            - title: BlockText
+              url: '/components/block-text'
+            - title: HeadingText
+              url: '/components/heading-text'
+            - title: Link
+              url: '/components/link'
+            - title: MultilineTextField
+              url: '/components/multiline-text-field'
+        - title: Charts
+          url: '/components/charts'
+          pages:
+            - title: AreaChart
+              url: '/components/area-chart'
+            - title: BarChart
+              url: '/components/bar-chart'
+            - title: BillboardChart
+              url: '/components/billboard-chart'
+            - title: ChartGroup
+              url: '/components/chart-group'
+            - title: FunnelChart
+              url: '/components/funnel-chart'
+            - title: HeatmapChart
+              url: '/components/heatmap-chart'
+            - title: HistogramChart
+              url: '/components/histogram-chart'
+            - title: JsonChart
+              url: '/components/json-chart'
+            - title: LineChart
+              url: '/components/line-chart'
+            - title: PieChart
+              url: '/components/pie-chart'
+            - title: ScatterChart
+              url: '/components/scatter-chart'
+            - title: SparklineChart
+              url: '/components/sparkline-chart'
+            - title: StackedBarChart
+              url: '/components/stacked-bar-chart'
+            - title: TableChart
+              url: '/components/table-chart'
+        - title: Query and storage
+          pages:
+            - title: AccountStorageMutation
+              url: '/components/account-storage-mutation'
+            - title: AccountStorageQuery
+              url: '/components/account-storage-query'
+            - title: AccountsQuery
+              url: '/components/accounts-query'
+            - title: EntitiesByDomainTypeQuery
+              url: '/components/entities-by-domain-type-query'
+            - title: EntitiesByGuidsQuery
+              url: '/components/entities-by-guids-query'
+            - title: EntitiesByNameQuery
+              url: '/components/entities-by-name-query'
+            - title: EntityByGuidQuery
+              url: '/components/entity-by-guid-query'
+            - title: EntityCountQuery
+              url: '/components/entity-count-query'
+            - title: EntitySearchQuery
+              url: '/components/entity-search-query'
+            - title: EntityStorageMutation
+              url: '/components/entity-storage-mutation'
+            - title: EntityStorageQuery
+              url: '/components/entity-storage-query'
+            - title: NerdGraphMutation
+              url: '/components/nerd-graph-mutation'
+            - title: NerdGraphQuery
+              url: '/components/nerd-graph-query'
+            - title: NrqlQuery
+              url: '/components/nrql-query'
+            - title: UserQuery
+              url: '/components/user-query'
+            - title: UserStorageMutation
+              url: '/components/user-storage-mutation'
+            - title: UserStorageQuery
+              url: '/components/user-storage-query'
+        - title: Platform APIs
+          pages:
+            - title: NerdletStateContext
+              url: '/components/nerdlet-state-context'
+            - title: PlatformStateContext
+              url: '/components/platform-state-context'
+            - title: logger
+              url: '/apis/logger'
+            - title: navigation
+              url: '/apis/navigation'
+            - title: nerdlet
+              url: '/apis/nerdlet'
+            - title: ngql
+              url: '/apis/ngql'
+- title: Instant Observability
+  icon: fe-box
+  url: 'https://newrelic.com/instant-observability'
+- title: Data Bytes
+  icon: nr-nerd-bytes
+  url: '/data-bytes'
+- title: Developer champions
+  icon: nr-developer-champions
+  url: '/developer-champion'
+- title: New Relic Builders
+  icon: nr-builders
+  url: '/builders'
+- title: Changelog
+  icon: nr-nerdlog
+  url: '/changelog'
+- title: Podcasts
+  icon: nr-podcasts
+  url: '/podcasts'
