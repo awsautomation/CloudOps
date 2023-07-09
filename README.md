@@ -13,7 +13,7 @@
 
 ## Amazon WebServices
 
-<img align="right" src=favicon/aws.png" height="100" alt="Amazon WebServices">
+<img align="right" src="favicon/aws.png" height="100" alt="Amazon WebServices">
 
 - [Notes + Learning Resources](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
