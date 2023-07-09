@@ -29,8 +29,16 @@
 ## Database AWS Workshop
 
 - [Amazon Aurora MySQL Database on the AWS Cloud](https://awsautomation.github.io/amazon-aurora-mysql/)
+- [NebulaGraph Database on AWS](https://awsautomation.github.io/nebula-graph-cloud/)
 
 
 ## Bastion Hosts
 
 - [Linux Bastion Hosts on AWS](https://awsautomation.github.io/linux-bastion/)
+
+
+## Microsoft Technologies on AWS
+
+- [Active Directory Domain Services on the AWS Cloud](https://awsautomation.github.io/microsoft-activedirectory/)
+- [Microsoft Exchange on AWS](https://awsautomation.github.io/microsoft-exchange/)
+- [Amazon EC2 Dedicated Hosts for Microsoft Windows on the AWS Cloud](https://awsautomation.github.io/microsoft-dedicated-host/)
