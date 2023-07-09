@@ -2,6 +2,9 @@
 <div style="text-align: center;">
   <a href="https://www.awsweb.online" style="text-decoration: none; display: inline-block;">
     <h1 style="display: inline;">DevOps</h1>
+  </a>  |
+  <a href="https://www.awsweb.online" style="text-decoration: none; display: inline-block;">
+    <h1 style="display: inline;">AWS</h1>
   </a>
 </div>
 <br></br>
