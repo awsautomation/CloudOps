@@ -2,7 +2,7 @@
 <div style="text-align: center;">
   <a href="https://www.awsweb.online" style="text-decoration: none; display: inline-block;">
     <h1 style="display: inline;">Bridging Cloud and DevOps</h1>
-  </a>  |
+  </a>
 </div>
 <br></br>
 
