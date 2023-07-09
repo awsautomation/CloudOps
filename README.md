@@ -13,7 +13,7 @@
 
 ## Amazon WebServices
 
-<img align="right" src="https://raw.githubusercontent.com/awsautomation/CloudOps/main/favicon/aws.png" height="100" alt="Amazon WebServices">
+<img align="right" src="https://github.com/awsautomation/CloudOps/blob/5bb99d3f06a2745346a3b2dcece5e8eb877d5e64/favicon/aws.png" height="100" alt="Amazon WebServices">
 
 - [Notes + Learning Resources](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
