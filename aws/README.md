@@ -7,3 +7,4 @@
 - [Atlassian Standard Infrastructure on the AWS Cloud](https://awsautomation.github.io/atlassian-services/)
 - [Bitbucket Data Center on the AWS Cloud](https://awsautomation.github.io/atlassian-bitbucket/)
 - [Confluence Data Center on the AWS Cloud](https://awsautomation.github.io/atlassian-confluence/)
+- [Crowd Data Center on the AWS Cloud](https://awsautomation.github.io/atlassian-crowd/)
