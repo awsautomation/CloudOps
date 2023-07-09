@@ -1,16 +1,13 @@
 
 <div style="text-align: center;">
   <a href="https://www.awsweb.online" style="text-decoration: none; display: inline-block;">
-    <h1 style="display: inline;">DevOps</h1>
+    <h1 style="display: inline;">Bridging Cloud and DevOps</h1>
   </a>  |
-  <a href="https://www.awsweb.online/aws-workShop.md" style="text-decoration: none; display: inline-block;">
-    <h1 style="display: inline;">AWS</h1>
-  </a>
 </div>
 <br></br>
 
 
-<p align="center"> Learning Content for DevOps Tools & Cloud Technologies </p>
+<p align="center"> Unlocking the Potential of Cloud Technologies and DevOps Tools: Explore Comprehensive Learning Content for Enhanced Expertise </p>
 
 ## Kubernetes
 
