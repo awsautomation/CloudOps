@@ -19,3 +19,8 @@
 ## JFrog Artifactory on AWS
 
 - [JFrog Artifactory Enterprise and JFrog Xray on the AWS Cloud](https://awsautomation.github.io/jfrog-artifactory/)
+
+
+## AWS Networking
+
+- [Amazon Virtual Private Cloud on AWS](https://awsautomation.github.io/aws-vpc/)
