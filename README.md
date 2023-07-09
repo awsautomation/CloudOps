@@ -15,9 +15,7 @@
 
 <img align="right" src="favicon/aws.png" height="100" alt="Amazon WebServices">
 
-- [Notes + Learning Resources](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/Kubernetes/YAML)
+- [Amazon WebServices WorkShop](aws/README.md)
 
 <br>
 
