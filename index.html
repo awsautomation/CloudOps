@@ -19,15 +19,23 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <nav>
+        <ul>
+          <li><a href="#/">DevOps</a></li>
+          <li><a href="#/aws">AWS</a></li>
+        </ul>
+      </nav>
+    </div>
     <script>
+      const awsContent = document.getElementById("aws").innerHTML;
+
       window.$docsify = {
         themeColor: "#368BC1",
-        name: "DevOps",
+        name: "DevOps | AWS",
         repo: "awsautomation",
         relativePath: true,
         subMaxLevel: 3,
-        search: "auto",
         search: {
           maxAge: 86400000,
           paths: "auto",
@@ -46,21 +54,28 @@
           },
         },
         plugins: [
-        function(hook) {
-        var footer = [
-          '<footer style="text-align: center;margin-top: 50px;">',
-          '<span> Developed by Farhan &copy; 2023 </span>',
-          '</footer>'
-        ].join('');
+          function (hook) {
+            hook.afterEach(function (html) {
+              if (hook.route.path === "/aws") {
+                return awsContent;
+              }
+              return html;
+            });
+          },
+          function(hook) {
+            var footer = [
+              '<footer style="text-align: center;margin-top: 50px;">',
+              '<span> Developed by Farhan &copy; 2023 </span>',
+              '</footer>'
+            ].join('');
 
-        hook.afterEach(function(html) {
-          return html + footer;
-        });
-      }
-    ]
-  };
-</script>
-    <!-- Docsify v4 -->
+            hook.afterEach(function(html) {
+              return html + footer;
+            });
+          }
+        ],
+      };
+    </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
