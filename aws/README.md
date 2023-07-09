@@ -24,3 +24,8 @@
 ## AWS Networking
 
 - [Amazon Virtual Private Cloud on AWS](https://awsautomation.github.io/aws-vpc/)
+
+
+## Database AWS Workshop
+
+- [Amazon Aurora MySQL Database on the AWS Cloud](https://awsautomation.github.io/amazon-aurora-mysql/)
