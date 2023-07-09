@@ -30,15 +30,6 @@
 
 <br>
 
-## NewRelic
-
-<img align="right" src="https://user-images.githubusercontent.com/51878265/211621722-c2ddc389-6e4e-4769-9dac-f18f8e71fed3.png" height="100" alt="NewRelic"> 
-
-- [Notes + Learning Resources](NewRelic/README.md)
-- [Workflows](https://github.com/awsautomation/CloudOps/tree/main/NewRelic/Workflows)
-
-<br>
-
 ## GitHub Actions
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/211621722-c2ddc389-6e4e-4769-9dac-f18f8e71fed3.png" height="100" alt="GitHub Action"> 
