@@ -9,6 +9,18 @@
 
 <p align="center"> Unlocking the Potential of Cloud Technologies and DevOps Tools: Explore Comprehensive Learning Content for Enhanced Expertise </p>
 
+
+
+## Amazon WebServices
+
+<img align="right" src="https://github.com/awsautomation/CloudOps/blob/main/favicon/aws.png" height="100" alt="Kubernetes"> 
+
+- [Notes + Learning Resources](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/awsautomation/CloudOps/tree/main/Kubernetes/YAML)
+
+<br>
+
 ## Kubernetes
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/200594367-f416d081-af8f-4f48-8008-998d005b317f.png" height="100" alt="Kubernetes"> 
