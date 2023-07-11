@@ -1,0 +1,14 @@
+{
+  "description": "Simple lambda layers test for LocalStack Pro",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/localstack/localstack-pro-samples",
+  "devDependencies": {
+    "serverless": "^2.50.0",
+    "serverless-deployment-bucket": "^1.1.0",
+    "serverless-localstack": "^1.0.5",
+    "serverless-pseudo-parameters": "^2.5.0"
+  },
+  "scripts": {
+    "deploy": "sls deploy --stage local"
+  }
+}

@@ -16,6 +16,7 @@
 <img align="right" src="favicon/aws.png" height="100" alt="Amazon WebServices">
 
 - [Amazon WebServices WorkShop](aws/README.md)
+- [LocalStack](localStack/README.md)
 
 <br>
 

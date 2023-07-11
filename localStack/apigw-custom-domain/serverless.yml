@@ -1,0 +1,38 @@
+service: sls-apigw-domain
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  stage: local
+  region: ${env:AWS_DEFAULT_REGION, 'us-east-1'}
+
+custom:
+  customDomain:
+    domainName: test.example.com
+    basePath: ''
+    endpointType: regional
+    stage: ${self:provider.stage}
+    createRoute53Record: true
+    autoDomain: true
+    apiType: http
+  localstack:
+    stages:
+      - local
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /hello
+          method: get
+  goodbye:
+    handler: handler.goodbye
+    events:
+      - httpApi:
+          path: /goodbye
+          method: get
+
+plugins:
+  - serverless-localstack
+  - serverless-domain-manager
