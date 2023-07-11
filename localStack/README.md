@@ -1,8 +1,7 @@
-# LocalStack Pro Samples
+# LocalStack Tutorial
 
-This repository contains sample projects that can be deployed on your local machine using [LocalStack Pro](https://localstack.cloud/).
 
-Each example in the repository is prefixed with the name of the AWS service being used. For example, the `elb-load-balancing` directory contains examples that demonstrate how to use the Elastic Load Balancing service with LocalStack. Please refer to the sub directories for more details and instructions on how to start the samples.
+Each tutorial in the repository is prefixed with the name of the AWS service being used. For example, the `elb-load-balancing` directory contains examples that demonstrate how to use the Elastic Load Balancing service with LocalStack. Please refer to the sub directories for more details and instructions on how to start the samples project for specific services of localstack.
 
 ## Prerequisites
 
