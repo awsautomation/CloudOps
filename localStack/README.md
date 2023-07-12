@@ -19,7 +19,7 @@ Some of the samples require LocalStack Pro features. Please make sure to properl
 
 | Sample Name                                                    | Description                                                                                        |
 | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Serverless Websockets](localStack/serverless-websockets/README.md)                 | API Gateway V2 websocket APIs deployed via the Serverless framework                                |
+| [Serverless Websockets](../serverless-websockets/README.md)                 | API Gateway V2 websocket APIs deployed via the Serverless framework                                |
 | [RDS Database Queries](rds-db-queries)                         | Running queries locally against an RDS database                                                    |
 | [Neptune Graph Database](neptune-graph-db)                     | Running queries locally against a Neptune Graph database                                           |
 | [Lambda Event Filtering](lambda-event-filtering)               | Lambda event source filtering with DynamoDB and SQS                                                |
