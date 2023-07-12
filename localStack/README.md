@@ -19,7 +19,7 @@ Some of the samples require LocalStack Pro features. Please make sure to properl
 
 | Sample Name                                                    | Description                                                                                        |
 | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Serverless Websockets](../serverless-websockets/README.md)                 | API Gateway V2 websocket APIs deployed via the Serverless framework                                |
+| [Serverless Websockets](localStack/serverless-websockets)                 | API Gateway V2 websocket APIs deployed via the Serverless framework                                |
 | [RDS Database Queries](rds-db-queries)                         | Running queries locally against an RDS database                                                    |
 | [Neptune Graph Database](neptune-graph-db)                     | Running queries locally against a Neptune Graph database                                           |
 | [Lambda Event Filtering](lambda-event-filtering)               | Lambda event source filtering with DynamoDB and SQS                                                |
@@ -48,7 +48,7 @@ Some of the samples require LocalStack Pro features. Please make sure to properl
 | [Java Notification App](java-notification-app)                 | Notification app using AWS Java SDK, SNS, SQS, SES, deployed via CloudFormation                    |
 | [Lambda Container images](lambda-container-image)              | Deploying Lambda functions as container images                                                     |
 | [Glue crawler with RedShift](glue-redshift-crawler)            | Glue Crawler to populate the Glue metadata store with the table schema of RedShift database tables |
-| [API Gateway custom domain](localStack/apigw-custom-domain/README.md)               | Using API Gateway v2 endpoints using custom domain names, deployed via the Serverless framework    |
+| [API Gateway custom domain](localStack/apigw-custom-domain)               | Using API Gateway v2 endpoints using custom domain names, deployed via the Serverless framework    |
 | [CDK resources](cdk-resources)                                 | Deploying various AWS resources via CDK                                                            |
 | [Glue for ETL jobs](glue-etl-jobs)                             | Using Glue API to run local ETL jobs                                                               |
 | [Message Queue broker](mq-broker)                              | Using MQ API to run local message queue brokers                                                    |
